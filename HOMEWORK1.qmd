@@ -1,5 +1,5 @@
 ---
-title: "STAT40830 - Homework 1"
+title: "STAT40830 - Homework 1: Exploring 1993 Car Market"
 author: "Akshaykumar Musterya- 24228316"
 format: pdf
 execute:
