@@ -90,3 +90,17 @@ From the boxplot, we observe the following:
 
 From the boxplot, we observe that **car type has a strong influence on price**. Larger cars and sporty models show more variability, while compact cars remain in a tighter price range. Outliers suggest luxury offerings in certain categories.
 
+
+```{r}
+# Histogram of Car Prices
+ggplot(Cars93, aes(x = Price)) +
+  geom_histogram(binwidth = 2, fill = "steelblue", color = "white") +
+  labs(
+    title = "Distribution of Car Prices",
+    x = "Price (USD)",
+    y = "Number of Cars"
+  ) +
+  theme_minimal()
+```
+
+
